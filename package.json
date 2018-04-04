@@ -1,0 +1,23 @@
+{
+  "name": "es-connector-api",
+  "version": "0.0.1",
+  "description": "es-connector-api",
+  "main": "app.js",
+  "author": "Haoran Zhang",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "es-mongodb-sync": "^2.0.5",
+    "hapi": "^17.3.1",
+    "hapi-swaggered": "^3.0.2",
+    "hapi-swaggered-ui": "^3.0.2",
+    "inert": "^5.1.0",
+    "moment": "^2.18.1",
+    "path": "^0.12.7",
+    "vision": "^5.3.2",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  }
+}
