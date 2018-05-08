@@ -9,7 +9,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "es-mongodb-sync": "^2.0.6",
+    "es-mongodb-sync": "^2.0.10",
     "hapi": "^17.3.1",
     "hapi-swaggered": "^3.0.2",
     "hapi-swaggered-ui": "^3.0.2",
