@@ -3,7 +3,7 @@
         "m_database": "myTest",
         "m_collectionname": "users",
         "m_filterfilds": {
-            "ActiveFlag" : true
+            "ActiveFlag": true
         },
         "m_returnfilds": {
             "Email": 1,
@@ -21,11 +21,11 @@
                 "password": "pass1234",
                 "authsource": "admin",
                 "replicaset": "my_replica",
-				"ssl":false
+                "ssl": false
             }
         },
         "m_documentsinbatch": 5000,
-		"m_delaytime": 1000
+        "m_delaytime": 1000
     },
     "elasticsearch": {
         "e_index": "myusers",
@@ -38,6 +38,6 @@
             }
         },
         "e_pipeline": false,
-		"e_iscontainattachment": false
+        "e_iscontainattachment": false
     }
 }
