@@ -1,6 +1,6 @@
 {
   "name": "es-connector-api",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "es-connector-api",
   "main": "app.js",
   "author": "Haoran Zhang",
@@ -9,7 +9,7 @@
   },
   "license": "ISC",
   "dependencies": {
-    "es-mongodb-sync": "^2.0.11",
+    "es-mongodb-sync": "^2.1.8",
     "hapi": "^17.4.0",
     "hapi-swaggered": "^3.0.2",
     "hapi-swaggered-ui": "^3.0.2",

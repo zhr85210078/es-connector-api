@@ -1,14 +1,14 @@
 {
     "mongodb": {
         "m_database": "myTest",
-        "m_collectionname": "users",
+        "m_collectionname": "books",
         "m_filterfilds": {
-            "ActiveFlag" : true
+            "version": "2.0"
         },
         "m_returnfilds": {
-            "Email": 1,
-            "Phone": 1,
-            "StaffCode": 1
+            "bName": 1,
+            "bPrice": 1,
+            "bImgSrc": 1
         },
         "m_connection": {
             "m_servers": [
@@ -21,15 +21,16 @@
                 "password": "pass1234",
                 "authsource": "admin",
                 "replicaset": "my_replica",
-				"ssl":false
+                "ssl": false
             }
         },
+        "m_url": "mongodb://UserAdmin:pass1234@localhost:29031,localhost:29032,localhost:29033/myTest?authSource=admin&replicaSet=my_replica",
         "m_documentsinbatch": 5000,
         "m_delaytime": 1000
     },
     "elasticsearch": {
-        "e_index": "myusers",
-        "e_type": "users",
+        "e_index": "mybooks",
+        "e_type": "books",
         "e_connection": {
             "e_server": "http://localhost:9200",
             "e_httpauth": {
@@ -37,7 +38,7 @@
                 "password": "pass1234"
             }
         },
-        "e_pipeline": false,
-		"e_iscontainattachment": false
+        "e_pipeline": "mypipeline",
+        "e_iscontainattachment": true
     }
 }
