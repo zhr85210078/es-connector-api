@@ -1,6 +1,6 @@
 {
   "name": "es-connector-api",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "es-connector-api",
   "main": "app.js",
   "author": "Haoran Zhang",
